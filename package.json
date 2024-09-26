@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WildanMZaki/chat-server.git"
+    "url": "git+https://github.com/WildanMZaki/only-socket.git"
   },
   "keywords": [
-    "chat"
+    "socket", "boilerplate", "socket.io"
   ],
   "author": "Wildan M Zaki",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WildanMZaki/chat-server/issues"
+    "url": "https://github.com/WildanMZaki/only-socket/issues"
   },
-  "homepage": "https://github.com/WildanMZaki/chat-server#readme",
+  "homepage": "https://github.com/WildanMZaki/only-socket#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
