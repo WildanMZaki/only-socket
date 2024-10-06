@@ -5,6 +5,7 @@ class app {
   constructor() {
     this.app = express();
     this.plugins();
+    this.routes();
   }
   plugins() {
     this.app.use(cors());
@@ -23,6 +24,11 @@ class app {
         "GET, POST, PUT, DELETE, OPTIONS"
       );
       b();
+    });
+  }
+  routes() {
+    this.app.get("/", (req, res) => {
+      res.send("Server is running");
     });
   }
 }
